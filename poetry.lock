@@ -2051,6 +2051,27 @@ files = [
 ]
 
 [[package]]
+name = "pyvst"
+version = "0.5.0"
+description = "VST2.4 python wrapping using ctypes"
+optional = false
+python-versions = "*"
+files = []
+develop = false
+
+[package.dependencies]
+numpy = ">=1.16.0"
+
+[package.extras]
+dev = ["pytest (>=3.8.0)"]
+
+[package.source]
+type = "git"
+url = "https://github.com/simlmx/pyvst.git"
+reference = "master"
+resolved_reference = "c1f0e7347e02cac1e16709e6512ff6faa2cb442b"
+
+[[package]]
 name = "pywin32"
 version = "306"
 description = "Python for Window Extensions"
@@ -2741,4 +2762,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "52263f88e797ea3ab635cd6ea124acf0bcc06e06662302b62af3bb5ec93f498b"
+content-hash = "6385e5e10d82fc606cb6494e4188e2dd4442291f956326f6d3454125166b3fc0"
